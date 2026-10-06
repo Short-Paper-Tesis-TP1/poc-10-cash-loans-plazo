@@ -1,0 +1,22 @@
+
+Total mujeres: 202,448 | 47 s
+
+== Todos los préstamos: 202,448 filas | 62,091 emprendedoras | TARGET=1 7.00 %
+Configuración                  AUC todas     ±sd   vs A2  AUC empr     ±sd   vs A2
+A2 BASE, 4 restricciones SBS      0.6483  0.0029 +0.0000    0.6381  0.0030 +0.0000
+B4 A2 + plazo                     0.6952  0.0039 +0.0469    0.6895  0.0051 +0.0514
+C6 A2 + trabajo + plazo           0.6994  0.0037 +0.0510    0.6928  0.0060 +0.0547
+
+== Solo Cash loans: 182,800 filas | 55,133 emprendedoras | TARGET=1 7.18 %
+Configuración                  AUC todas     ±sd   vs A2  AUC empr     ±sd   vs A2
+A2 BASE, 4 restricciones SBS      0.6471  0.0045 +0.0000    0.6350  0.0115 +0.0000
+B4 A2 + plazo                     0.6964  0.0023 +0.0494    0.6884  0.0060 +0.0534
+C6 A2 + trabajo + plazo           0.6998  0.0014 +0.0527    0.6913  0.0041 +0.0562
+
+== Solo Revolving loans: 19,648 filas | 6,958 emprendedoras | TARGET=1 5.31 %
+Configuración                  AUC todas     ±sd   vs A2  AUC empr     ±sd   vs A2
+A2 BASE, 4 restricciones SBS      0.6274  0.0064 +0.0000    0.6367  0.0098 +0.0000
+B4 A2 + plazo                     0.6274  0.0064 +0.0000    0.6367  0.0098 +0.0000
+C6 A2 + trabajo + plazo           0.6358  0.0196 +0.0084    0.6356  0.0162 -0.0011
+
+Guardado: resultado_poc_cash_loans.json

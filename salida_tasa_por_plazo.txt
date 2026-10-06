@@ -1,0 +1,11 @@
+Mujeres con Cash loans: 182,800 | plazo min 8.0 | max 45.3 | nulos 8
+               filas  pct_default
+plazo                            
+(7.999, 12.0]  21694         3.92
+(12.0, 18.0]   38249         8.33
+(18.0, 24.0]   53416         9.06
+(24.0, 30.0]   25158         6.25
+(30.0, 36.0]   36380         6.40
+(36.0, 48.0]    7895         4.40
+Filas con tramo asignado: 182,792 | tasa promedio: 7.18 %
+Guardado: resultado_tasa_por_plazo.json

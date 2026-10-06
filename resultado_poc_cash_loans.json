@@ -1,0 +1,95 @@
+{
+  "Todos los préstamos": {
+    "filas": 202448,
+    "emprendedoras": 62091,
+    "tasa_target": 0.06999328222555916,
+    "configs": {
+      "A2 BASE, 4 restricciones SBS": {
+        "auc_todas": 0.6483184199844747,
+        "sd_todas": 0.0028695971158577793,
+        "auc_emprendedoras": 0.6380922992124518,
+        "sd_emprendedoras": 0.003033286593305594,
+        "vs_A2_todas": 0.0,
+        "vs_A2_emprendedoras": 0.0
+      },
+      "B4 A2 + plazo": {
+        "auc_todas": 0.6951975013773415,
+        "sd_todas": 0.003851972848968406,
+        "auc_emprendedoras": 0.6895410261509751,
+        "sd_emprendedoras": 0.005134483742651645,
+        "vs_A2_todas": 0.046879081392866784,
+        "vs_A2_emprendedoras": 0.051448726938523315
+      },
+      "C6 A2 + trabajo + plazo": {
+        "auc_todas": 0.6993579041129406,
+        "sd_todas": 0.003746577220975864,
+        "auc_emprendedoras": 0.6927853938740405,
+        "sd_emprendedoras": 0.006014156699067178,
+        "vs_A2_todas": 0.05103948412846593,
+        "vs_A2_emprendedoras": 0.05469309466158867
+      }
+    }
+  },
+  "Solo Cash loans": {
+    "filas": 182800,
+    "emprendedoras": 55133,
+    "tasa_target": 0.07181072210065645,
+    "configs": {
+      "A2 BASE, 4 restricciones SBS": {
+        "auc_todas": 0.6470596645223485,
+        "sd_todas": 0.004513347342627666,
+        "auc_emprendedoras": 0.63503470796964,
+        "sd_emprendedoras": 0.01154813046373123,
+        "vs_A2_todas": 0.0,
+        "vs_A2_emprendedoras": 0.0
+      },
+      "B4 A2 + plazo": {
+        "auc_todas": 0.6964491897319236,
+        "sd_todas": 0.002283689748114892,
+        "auc_emprendedoras": 0.6884372636370186,
+        "sd_emprendedoras": 0.005992337305337731,
+        "vs_A2_todas": 0.04938952520957507,
+        "vs_A2_emprendedoras": 0.053402555667378615
+      },
+      "C6 A2 + trabajo + plazo": {
+        "auc_todas": 0.6997553297340705,
+        "sd_todas": 0.0014064225461404862,
+        "auc_emprendedoras": 0.6912831149947541,
+        "sd_emprendedoras": 0.00407824136808019,
+        "vs_A2_todas": 0.052695665211721976,
+        "vs_A2_emprendedoras": 0.05624840702511413
+      }
+    }
+  },
+  "Solo Revolving loans": {
+    "filas": 19648,
+    "emprendedoras": 6958,
+    "tasa_target": 0.05308428338762215,
+    "configs": {
+      "A2 BASE, 4 restricciones SBS": {
+        "auc_todas": 0.6274380253298802,
+        "sd_todas": 0.006447245523803905,
+        "auc_emprendedoras": 0.6367344693604112,
+        "sd_emprendedoras": 0.009784618937202732,
+        "vs_A2_todas": 0.0,
+        "vs_A2_emprendedoras": 0.0
+      },
+      "B4 A2 + plazo": {
+        "auc_todas": 0.6274380253298802,
+        "sd_todas": 0.006447245523803905,
+        "auc_emprendedoras": 0.6367344693604112,
+        "sd_emprendedoras": 0.009784618937202732,
+        "vs_A2_todas": 0.0,
+        "vs_A2_emprendedoras": 0.0
+      },
+      "C6 A2 + trabajo + plazo": {
+        "auc_todas": 0.6358013169591127,
+        "sd_todas": 0.019566750554226922,
+        "auc_emprendedoras": 0.6356020582519403,
+        "sd_emprendedoras": 0.01621066347699876,
+        "vs_A2_todas": 0.008363291629232439,
+        "vs_A2_emprendedoras": -0.0011324111084709543
+      }
+    }
+  }
+}
